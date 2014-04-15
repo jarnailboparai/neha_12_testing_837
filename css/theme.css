@@ -142,15 +142,20 @@ body,body.ui-overlay-a{
 
 
 
+@media (min-width: 400px) {
 .theme_bg
 {
-	background-image:none;
+	background-image:url(../images/app837land.jpg) ;
 	background-repeat:no-repeat;
 	background-size:cover;	
-	background: linear-gradient(left , rgb(0, 0, 0) 1% , rgb(212, 105, 196) 10% , rgb(68, 160, 194) 24% , rgb(235, 142, 75) 43% , rgb(24, 122, 13) 57% , rgb(148, 215, 83) 68% , rgb(169, 102, 7) 70% , rgb(0, 0, 0) 80% , rgb(76, 236, 137) 93% , rgb(210, 31, 189) 95%);
-background: -o-linear-gradient(left , rgb(0, 0, 0) 1% , rgb(212, 105, 196) 10% , rgb(68, 160, 194) 24% , rgb(235, 142, 75) 43% , rgb(24, 122, 13) 57% , rgb(148, 215, 83) 68% , rgb(169, 102, 7) 70% , rgb(0, 0, 0) 80% , rgb(76, 236, 137) 93% , rgb(210, 31, 189) 95%);
-background: -ms-linear-gradient(left , rgb(0, 0, 0) 1% , rgb(212, 105, 196) 10% , rgb(68, 160, 194) 24% , rgb(235, 142, 75) 43% , rgb(24, 122, 13) 57% , rgb(148, 215, 83) 68% , rgb(169, 102, 7) 70% , rgb(0, 0, 0) 80% , rgb(76, 236, 137) 93% , rgb(210, 31, 189) 95%);
-background: -moz-linear-gradient(left , rgb(0, 0, 0) 1% , rgb(212, 105, 196) 10% , rgb(68, 160, 194) 24% , rgb(235, 142, 75) 43% , rgb(24, 122, 13) 57% , rgb(148, 215, 83) 68% , rgb(169, 102, 7) 70% , rgb(0, 0, 0) 80% , rgb(76, 236, 137) 93% , rgb(210, 31, 189) 95%);
-background: -webkit-linear-gradient(left , rgb(0, 0, 0) 1% , rgb(212, 105, 196) 10% , rgb(68, 160, 194) 24% , rgb(235, 142, 75) 43% , rgb(24, 122, 13) 57% , rgb(148, 215, 83) 68% , rgb(169, 102, 7) 70% , rgb(0, 0, 0) 80% , rgb(76, 236, 137) 93% , rgb(210, 31, 189) 95%);
+}
+}
+@media (min-width: 100px) and (max-width: 399px) {
+.theme_bg
+{
+	background-image:url(../images/app837port.jpg) ;
+	background-repeat:no-repeat;
+	background-size:cover;	
+}
 }
 
